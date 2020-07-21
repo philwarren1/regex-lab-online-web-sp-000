@@ -1,7 +1,7 @@
 def starts_with_a_vowel?(word)
   /^\w+[aeiou AEIOU]/
   return true
-  /^\w+[^aeiou ^AEIOU]/
+  /^\w+[bcdfghjklmnpqrstvwxyz BCDFGHJKLMNPQRSTVWXYZ]/
   return false
 end
 
