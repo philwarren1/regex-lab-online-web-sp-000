@@ -1,12 +1,9 @@
 def starts_with_a_vowel?(word)
   /^\w+[aeiou AEIOU]/
   return true
+  
 end
 
-def starts_with_a_consonant?(word)
-  !starts_with_a_vowel(word)
-  return false
-end   
 def words_starting_with_un_and_ending_with_ing(text)
 
 end
