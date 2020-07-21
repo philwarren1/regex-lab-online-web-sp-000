@@ -3,7 +3,7 @@ def starts_with_a_vowel?(word)
   return true
 end
 
-def starts_with_a_vowel?(word)
+def starts_with_a_consonant?(word)
   !starts_with_a_vowel(word)
   return false
 end   
